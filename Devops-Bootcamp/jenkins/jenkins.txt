@@ -1,0 +1,7 @@
+sudo systemctl status jenkins.service
+sudo systemctl start jenkins.service
+ifconfig
+sudo systemctl stop jenkins
+sudo nano /var/lib/jenkins/config.xml
+sudo vi /var/lib/jenkins/config.xml
+sudo chmod +w /var/lib/jenkins/config.xml
